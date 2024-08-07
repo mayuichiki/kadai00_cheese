@@ -15,10 +15,13 @@
 <body>
   <!-- この中に記述していく -->
   <!-- ここから下にコードを書く -->
+  
   <header id="header">
+    <!-- ヘッダーのロゴ -->
     <div class="logo">
       <img src="./img/header_logo.png" alt="チーズアカデミー">
     </div>
+    <!-- メニューバー -->
     <nav>
       <ul class="main-menu">
         <li><a href="#about_01">ABOUT</a></li>
@@ -31,6 +34,7 @@
   </header>
 
   <main>
+    <!-- メイン画像 -->
     <div class="mainbg">
       <img src="./img/mainbg.png" alt="メイン画像">
       <ul>
@@ -39,6 +43,7 @@
       </ul>
     </div>
     
+    <!-- チーズアカデミーについて -->
     <section class="about">
       <div>
         <h1 id="about_01">ABOUT</h1>
@@ -64,17 +69,21 @@
         <img src="./img/about_images.png" alt="">
       </div>  
     </section>
-  
+    
+    <!-- コース説明 -->
     <section class="course">
       <div>
         <h2 id="course_01">COURSE</h2>
       </div>
+
       <div class="course_02">
         <p>未経験からでもスタートができるよう、カリキュラムは多くの専門家や</p>
         <p>現役チーズ職人のアドバイスのもと、作られました。</p>
       </div>
+
+      <!-- コース1 -->
       <div class="container">
-        <img src="./img/course_01.jpg" alt="">
+        <img src="./img/course_01.jpg" alt="コース画像1">
         <div class="text01">
           <h2 class="title01">本格的な農園を使った実地研修</h2>
           <p>チーズアカデミーでは、本格的な農園を使った実地研修を</p>
@@ -84,6 +93,8 @@
           <p>実践力の養成を目指します。</p>
         </div>
       </div>
+
+      <!-- コース2 -->
       <div class="container">
         <div class="text02">
           <h2 class="title02">必要な知識もしっかりと取得</h2>
@@ -97,6 +108,8 @@
         </div>
         <img src="./img/course_02.jpg" alt="">
       </div>
+
+      <!-- コース3 -->
       <div class="container">
         <img src="./img/course_03.jpg" alt="">
         <div class="text03">
@@ -110,6 +123,7 @@
       </div>
     </section>
 
+    <!-- ニュース見出し -->
     <section class="news">
       <div>
         <h3 id="news_01">NEWS</h3>
@@ -117,6 +131,8 @@
       <div class="news_02">
         <p>ニュース</p>
       </div>
+
+      <!-- ニュース記事 -->
       <section class="NEWS">
         <div class="news_03">
           <img src="./img/news_img.jpg" alt="">
@@ -152,6 +168,7 @@
       </div>
     </section>
 
+    <!-- アクセス -->
     <sections class="access">
       <div>
         <h4 id="access_01">Access</h4>
@@ -181,6 +198,7 @@
       
     </sections>
 
+    <!-- コンタクト -->
     <section class="contact">
       <div>
         <h5 id="contact_01">CONTACT</h5>
@@ -197,43 +215,54 @@
         <p>間違っても問い合わせしないようお願いいたします。</p>
       </div>
       
-    <div class="form">
-      <form action="" method="">
-        
-        <div>
-          <label for="name">名前</label>
-          <input id="name" type="text" name="name" placeholder="名前">
-        </div>
-        <div>
-          <label for="name">カナ</label>
-          <input id="name" type="text" name="name" placeholder="カナ">
-        </div>
-        <div>
-          <label for="mail">メールアドレス</label>
-          <input id="mail" type="email" name="email" placeholder="メールアドレス">
-        </div>
-        <div>
-          <label>チーズアカデミーを知ったきっかけ</label>
-          <select name="item">
-            <option value="">項目を選択</option>
-            <option value="product">google検索</option>
-            <option value="order">SNS</option>
-            <option value="ship">紹介</option>
-            <option value="service">たまたま通りかかった</option>
-            <option value="other">その他</option>
-          </select>
-        </div>
-        <div>
-          <label for="checkbox">志望動機</label>
-          <p><input type="checkbox" name="reason" value="起業をしたい">起業をしたい</p>
-          <p><input type="checkbox" name="reason" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい</p>
-          <p><input type="checkbox" name="reason" value="チーズと関わる仕事をしており、仕事に生かしたい">チーズと関わる仕事をしており、仕事に生かしたい</p>
-          <p><input type="checkbox" name="reason" value="チーズの教養を身につけたい">チーズの教養を身につけたい</p>
-        </div>
-        <div>
-          <label for="comment">詳細</label><br >
-          <textarea id="comment" rows="10" cols="30" placeholder="詳細を入力してください"></textarea>
-        </div>
+    <div class="contactform">
+      <form>
+        <table class="form">
+          <tr>
+            <th class="form1">名前</th>
+            <td class="form2"><input type="text" class="formtext1"></td>
+          </tr>
+
+          <tr>
+            <th class="form3">カナ</th>
+            <td class="form4"><input type="text" class="formtext1"></td>
+          </tr>
+
+          <tr>
+            <th class="form5">メールアドレス</th>
+            <td class="form6"><input type="email" class="formtext1"></td>
+          </tr>
+
+          <tr>
+            <th class="form7">チーズアカデミーを<br>知ったきっかけ</th>
+            <td class="form8">
+              <select name="item" class="selectbox">
+                <option value="">項目を選択</option>
+                <option value="product">google検索</option>
+                <option value="order">SNS</option>
+                <option value="ship">紹介</option>
+                <option value="service">たまたま通りかかった</option>
+                <option value="other">その他</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <th class="form9">志望動機</th>
+            <td class="form10">
+              <p><input type="checkbox" name="reason" value="起業をしたい">起業をしたい</p>
+              <p><input type="checkbox" name="reason" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい</p>
+              <p><input type="checkbox" name="reason" value="チーズと関わる仕事をしており、仕事に生かしたい">チーズと関わる仕事をしており、仕事に生かしたい</p>
+              <p><input type="checkbox" name="reason" value="チーズの教養を身につけたい">チーズの教養を身につけたい</p>
+            </td>
+          </tr>
+
+          <tr>
+            <th class="form11">詳細</th>
+            <td class="form12"><textarea id="comment" rows="10" cols="30" placeholder="詳細を入力してください"></textarea></td>
+          </tr>
+        </table>
+
         <div>
           <input type="submit" value="送信" class="button">
         </div>

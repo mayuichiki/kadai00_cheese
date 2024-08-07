@@ -339,6 +339,7 @@ nav ul li a:hover{
     text-align: left;
     margin: 1em 0;  
 }
+
 #contact_01{
     color: #222222 ;
     font-size: 24px;
@@ -367,6 +368,153 @@ nav ul li a:hover{
 }
 .contact{
     text-align: center;
+}
+
+.form{
+    display: table;
+    border-top: #bfbfbf solid;
+    border-bottom: #bfbfbf solid;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.form1 {
+    width: 240px;
+    height: 52px;
+    border-bottom: #bfbfbf solid;
+    border-right: #bfbfbf solid;
+    padding: 8px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.form2 {
+    width: 400px;
+    height: 52px;
+    padding: 8px;
+    border-bottom: #bfbfbf solid;
+}
+
+.formtext1 {
+    width: 328px;
+    height: 36px;
+}
+
+.form3 {
+    width: 240px;
+    height: 52px;
+    border-bottom: #bfbfbf solid;
+    border-right: #bfbfbf solid;
+    padding: 8px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.form4 {
+    width: 400px;
+    height: 52px;
+    padding: 8px;
+    border-bottom: #bfbfbf solid;
+}
+
+.selectbox {
+    width: 336px;
+    height: 42px;
+}
+
+.form5 {
+    width: 240px;
+    height: 52px;
+    border-bottom: #bfbfbf solid;
+    border-right: #bfbfbf solid;
+    padding: 8px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.form6 {
+    width: 400px;
+    height: 52px;
+    padding: 8px;
+    border-bottom: #bfbfbf solid;
+}
+
+
+.label {
+    padding-left: 8px;
+}
+
+.form7 {
+    width: 240px;
+    height: 52px;
+    border-bottom: #bfbfbf solid;
+    border-right: #bfbfbf solid;
+    padding: 8px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.form8 {
+    width: 400px;
+    height: 52px;
+    padding: 8px;
+    border-bottom: #bfbfbf solid;
+}
+
+.form9 {
+    width: 240px;
+    height: 169px;
+    border-bottom: #bfbfbf solid;
+    border-right: #bfbfbf solid;
+    padding: 8px;
+    padding-left: 16px;
+    text-align: start;
+}
+
+.form10 {
+    font-size: 14px;
+    width: 328px;
+    height: 169px;
+    padding: 8px;
+    border-bottom: #bfbfbf solid;
+    line-height: 3;
+}
+
+.form11 {
+    width: 240px;
+    height: 156px;
+    border-right: #bfbfbf solid;
+    padding: 8px;
+    padding-top: 16px;
+    padding-left: 16px;
+    text-align: start;
+    vertical-align: top;
+}
+
+.form12 {
+    width: 400px;
+    height: 156px;
+    padding: 8px;
+    border-bottom: #bfbfbf solid;
+}
+
+#comment {
+    width: 328px;
+    height: 134px;
+}
+
+.name{
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 16px;
 }
 
 .button {
